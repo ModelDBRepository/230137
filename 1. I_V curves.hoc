@@ -17,8 +17,8 @@ soma {
 }
 
 proc start() {
-	volt_cl.amp(0) = hold_pot
-	volt_cl.amp(2) = hold_pot
+	volt_cl.amp[0] = hold_pot
+	volt_cl.amp[2] = hold_pot
 	
 	g_v.erase()
 	g_i.erase()
